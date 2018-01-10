@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SomeLayout</string>
+    <string name="title_activity_three_buttons">ThreeButtons</string>
+</resources>

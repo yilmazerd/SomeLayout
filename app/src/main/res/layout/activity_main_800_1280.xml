@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.erdemyilmaz.somelayout.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/black"
+            android:fontFamily="sans-serif"
+            android:hint="MORNING"
+            android:lineSpacingExtra="0sp"
+            android:text="07:55"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="280sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="MONDAY"
+            android:paddingBottom="50dp"
+            android:text="FRIDAY, LATE AFTERNOON"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="510dp"
+            android:background="@android:color/black"
+            android:gravity="top"
+            android:hint="24:55"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="380dp"
+            android:background="@android:color/black"
+            android:gravity="top"
+            android:hint="24:55"
+            android:text="DECEMBER 23, 2017"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="100sp" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
